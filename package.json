@@ -8,9 +8,7 @@
     "index.js",
     "index.d.ts"
   ],
-  "exports": {
-    "index.js"
-  },
+  "exports": "./index.js",
   "scripts": {
     "test": "node test.js",
     "format": "prettier --write \"./**/*.{js,json}\""
