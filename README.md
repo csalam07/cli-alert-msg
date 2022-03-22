@@ -34,20 +34,20 @@ yarn add cli-alert-msg
 import alert = from 'cli-alert-msg';
 
 // Provide the type, msg, and name options.
-alert({type: `success`, msg: `Everything finished!`});
-// Prints: ✔ SUCCESS Everything finished!
+alert({type: `success`, msg: `Who doesn't like to be a successfull!`});
+// Prints: ✔ SUCCESS Who doesn't like to be a successfull!
 
-alert({type: `success`, msg: `Everything finished!`, name: `DONE`});
-// Prints: ✔ DONE Everything finished!
+alert({type: `success`, msg: `Compiled Successfully!`, name: `FINISHED`});
+// Prints: ✔ FINISHED Compiled Successfully!
 
-alert({type: `warning`, msg: `You didn't add something!`});
-// Prints: ⚠ WARNING You didn't add something!
+alert({type: `warning`, msg: `I dont like wanings!`});
+// Prints: ⚠ WARNING I dont like wanings!
 
-alert({type: `info`, msg: `Hello Wrold!`});
-// Prints: ℹ INFO Helo World!
+alert({type: `info`, msg: `It's Raining here!`});
+// Prints: ℹ INFO It's Raining here!
 
-alert({type: `error`, msg: `Something went wrong!`});
-// Prints: ✖ ERROR Something went wrong!
+alert({type: `error`, msg: `No I cant be wrong!`});
+// Prints: ✖ ERROR No I cant be wrong!
 ```
 
 <br />
@@ -72,7 +72,7 @@ Default: `error`
 ##### ❯ msg
 
 Type: `string`<br>
-Default: `You forgot to define all options.` (Error message)
+Default: `I forgot to define all options.` (Error message)
 
 ##### ❯ name
 

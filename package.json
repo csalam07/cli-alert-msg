@@ -1,0 +1,56 @@
+{
+  "name": "cli-alert-msg",
+  "version": "1.0.0",
+  "description": "Let you alert for info,success, warnings and erro in cli with colors & symbols",
+  "main": "index.js",
+  "type": "module",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "exports": {
+    "index.js"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "format": "prettier --write \"./**/*.{js,json}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csalam07/cli-alert-msg.git"
+  },
+  "keywords": [
+    "cli",
+    "console",
+    "alert",
+    "alert-msg",
+    "cli-alert-message",
+    "alert-message",
+    "cli-alert-msg",
+    "cli-alert",
+    "cli-alert-console",
+    "cli-my-console",
+    "cli-your-console",
+    "cli-all-console",
+    "cli alert windows",
+    "cli alert macos",
+    "cli alert linux",
+    "cli alert windows mac linux",
+    "csalam",
+    "csalam07"
+  ],
+  "author": {
+    "name": "csalam07",
+    "linkedIn": "linkedin.com/in/shahbajz-alam-b47678193",
+    "twitter": "https://twitter.com/CSALam12"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/csalam07/cli-alert-msg/issues"
+  },
+  "homepage": "https://github.com/csalam07/cli-alert-msg#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "cli-symbols-log": "^1.0.1"
+  }
+}
